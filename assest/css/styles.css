@@ -62,10 +62,12 @@ a {
 }
 
 .navbar ul a {
-  font-size: 1.4rem;
   font-weight: 500;
-  color: #614f59;
   padding: 8px 14px;
+  color: #4f5361;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
 }
 
 .navbar ul a:hover {
@@ -75,6 +77,10 @@ a {
 .navbar .actions-link {
   color: var(--primary-color);
   font-size: 1.4rem;
+  font-weight: 500;
+  color: #0f1b4c;
+  font-family: Poppins;
+  font-size: 14px;
   font-weight: 500;
 }
 
@@ -89,10 +95,11 @@ a {
 }
 
 .hero .sub-title {
-  font-size: 1.8rem;
+  color: #687690;
+  font-family: Poppins;
+  font-size: 18px;
   font-weight: 500;
-  letter-spacing: 0.1em;
-  line-height: 1.5;
+  letter-spacing: 0.18px;
 }
 
 .hero .title {
