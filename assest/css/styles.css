@@ -49,6 +49,9 @@ a {
   background-color: #e6f0ff;
   height: calc(100vh - 90px);
   position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .fix-header {
@@ -104,11 +107,7 @@ a {
   border-radius: 8px;
 }
 
-.hero {
-  padding-top: 130px;
-}
-
-.hero .sub-title {
+.hero-wrap .sub-title {
   color: #687690;
   font-family: Poppins;
   font-size: 18px;
@@ -116,7 +115,7 @@ a {
   letter-spacing: 0.18px;
 }
 
-.hero .title {
+.hero-wrap .title {
   margin-top: 8px;
   color: #000336;
   font-family: Poppins;
@@ -126,7 +125,7 @@ a {
   line-height: 76px; /* 118.75% */
 }
 
-.hero .desc {
+.hero-wrap .desc {
   color: #5a6473;
   font-family: Poppins;
   font-size: 18px;
@@ -137,7 +136,7 @@ a {
   margin-top: 30px;
 }
 
-.hero .info {
+.hero-wrap .info {
   width: 51%;
 }
 
